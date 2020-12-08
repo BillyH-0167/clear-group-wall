@@ -1,0 +1,16 @@
+{
+  "name": "scam-post-remove-bot",
+  "version": "1.0.0",
+  "description": "Removes all spam from the group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JustBillyH",
+  "license": "MIT",
+  "dependencies": {
+    "noblox.js": "^4.2.3",
+    "request": "^2.88.0",
+    "bloxy": "^2.9.9964"
+  }
+}
