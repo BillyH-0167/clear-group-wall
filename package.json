@@ -9,8 +9,7 @@
   "author": "JustBillyH",
   "license": "MIT",
   "dependencies": {
-    "noblox.js": "^4.2.3",
+    "noblox.js": "^4.7.3",
     "request": "^2.88.0",
-    "bloxy": "^2.9.9964"
   }
 }
