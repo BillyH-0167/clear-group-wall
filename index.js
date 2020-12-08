@@ -17,7 +17,7 @@ var keywords = [
   "rewardtool.se",
   "rewardtool"
 ];
-//rbx.setCookie(cookie).then(function() {
+rbx.setCookie(cookie).then(function() {
   console.log("LoggedIn");
   rbx.getWall({group: groupId}).then(function(data){
     var posts = data.posts
@@ -37,7 +37,7 @@ rbx.deleteWallPost({id:data.id, group:groupId}).catch(function(e) { });
       }
     }
   }).catch(function(e) { console.log(e); });
-
+})
   var onWallPost = rbx.onWallPost({group: group});
   onWallPost.on("data", function(data) {
     var found = 0;
